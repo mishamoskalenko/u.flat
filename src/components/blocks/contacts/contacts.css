@@ -1,0 +1,67 @@
+.contacts{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 46px 150px;
+    background-color: #E9E8E4;
+}
+
+.contacts-text{
+    padding-right: 248px;
+}
+
+.contacts__title{
+    font-family: "Kharkiv";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contacts-text__description{
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contacts__image img{
+    border-radius: 20px;
+}
+
+.contacts__list{
+    list-style-type: none;
+    color: #10180C;
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    position: relative;
+}
+
+.contacts__list--location::before{
+    content: "";
+    position: absolute;
+    background-image: url(../../../assets/location.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    left: 7px;
+}
+
+.contacts__list--phone::before{
+    content: "";
+    position: absolute;
+    background-image: url(../../../assets/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    left: 7px;
+}

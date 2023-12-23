@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap');
+
+@font-face {
+  font-family: "Kharkiv";
+  src: local("Kharkiv"),
+   url('../../../src/fonts/Kharkiv.ttf') format("truetype");
+  font-weight: bold;
+}
+
+html {
+  width: 1440px;
+  height: 100%;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: "Roboto Flex", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+}
+

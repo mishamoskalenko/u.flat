@@ -1,0 +1,53 @@
+.agents-list{
+    padding: 155px 160px 150px 160px;
+    background-color: #E9E8E4;
+}
+
+.agents-list__title{
+    margin: 0;
+    font-family: "Kharkiv";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #10180C;
+}
+
+.agents-list__description{
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #10180C;
+}
+
+.agents-list__group{
+    display: flex;
+    align-items: center;
+    gap: 185px;
+}
+
+.agents__list-cards{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 93px;
+}
+
+.agents-list__more{
+    text-align: right;
+    position: relative;
+}
+
+.agents-list__more::after{
+    content: "";
+    position: absolute;
+    background-image: url(../../../assets/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    top: 3px;
+    right: -35px;
+}

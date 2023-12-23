@@ -1,0 +1,122 @@
+.filtr{
+    background-image: url(../../../assets/filtr.jpg);
+    padding: 180px 0px 32px 160px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -20px;
+    background-repeat: no-repeat;
+}
+
+.filtr__title{
+    font-family: 'Kharkiv';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    padding-right: 2px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.filtr__title::before{
+    content: '';
+    background-image: url(../../../assets/filter-trade.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 17px;
+    height: 25.5px;
+    top: 540px;
+    left: 192px;
+}
+
+.filtr__title::after{
+    content: '';
+    background-image: url(../../../assets/filter-flat.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    top: 541px;
+    left: 565px;
+}
+
+.filtr__search{
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.filtr__search select:nth-child(1) {
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filtr__search select {
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    padding: 28.5px 238px 28.5px 62px;
+    cursor: pointer;
+    background-color: #E9E8E4;
+}
+  
+.filtr-search__button{
+    padding: 28.5px 100px;
+    background-color: #737261;
+    border: 0;
+    border-radius: 0px 20px 20px 0px;
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    cursor: pointer;
+}
+
+.filtr-search__button::before{
+    content: '';
+    background-image: url(../../../assets/filter-search.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    top: 544px;
+    right: 342px;
+}
+
+
+
+
+
+
+
+
+
+.filtr-search__settings{
+    background-image: url(../../../assets/settings.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    border: 0;
+    padding: 49.3px 20px 27.3px 47px;
+    margin-top: 1px;
+    background-color: #E9E8E4;
+}

@@ -1,0 +1,32 @@
+.about{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 46px 150px;
+    background-color: #E9E8E4;
+}
+
+.about-text{
+    padding-right: 248px;
+}
+
+.about-text__title{
+    font-family: "Kharkiv";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-text__description{
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about__image img{
+    border-radius: 20px;
+}
+
+
+

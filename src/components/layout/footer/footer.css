@@ -1,0 +1,120 @@
+.footer{
+    padding: 50px 45px 93px 46px;
+    background-color: #737261;
+    display: grid;
+    grid-template-columns: 264px 121px 417px 1fr;
+    align-items: top;
+    gap: 75px;
+}
+
+.footer__logo{
+    font-family: "Kharkiv";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #E9E8E4;
+    margin: 0;
+}
+
+.footer-company__title{
+    font-family: "Roboto Flex";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    color: #E9E8E4;
+    margin: 0;
+}
+
+.footer-company-list{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    color: #E9E8E4;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-company__group{
+    display: flex;
+    gap: 39px;
+}
+
+.footer-category__title{
+    font-family: "Roboto Flex";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    color: #E9E8E4;
+    margin: 0;
+}
+
+.footer-category-list{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    color: #E9E8E4;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-category__group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 39px;
+}
+
+.footer-contacts__title{
+    font-family: "Roboto Flex";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    color: #E9E8E4;
+    margin: 0;
+}
+
+.footer-contacts-list{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    color: #E9E8E4;
+    list-style-type: none;
+    padding: 0;
+    padding-left: 34px;
+    position: relative;
+}
+
+.footer-contacts__list--location::before{
+    content: "";
+    position: absolute;
+    background-image: url(../../../assets/location-footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    top: 0px;
+    left: 7px;
+}
+
+.footer-contacts__list-phone::before{
+    content: "";
+    position: absolute;
+    background-image: url(../../../assets/phone-footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+    width: 24px;
+    height: 24px;
+    top: 0px;
+    left: 7px;
+}

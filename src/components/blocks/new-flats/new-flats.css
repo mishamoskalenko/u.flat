@@ -1,0 +1,43 @@
+.new-flats__image{
+    border-radius: 6%;
+}
+
+.new-flats__title{
+    color: #10180C;
+    font-family: "Roboto Flex";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.new-flats__price{
+    color: #10180C;
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.new-flats__location{
+    color: #737261;
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 250px;
+    margin: 0;
+}
+
+.new-flats__author{
+    color: #737261;
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+

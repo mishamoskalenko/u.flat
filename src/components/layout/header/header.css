@@ -1,0 +1,51 @@
+.header{
+    background-color: #E9E8E4;
+    border-radius: 0px 20px 0px 0px;
+    border-radius: 20px;
+    padding: 20px 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.header__logo{
+    font-family: 'Kharkiv';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #10180C;
+}
+
+.header__nav{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item{
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #10180C;
+}
+
+.nav__link{
+    color: #10180C;
+    text-decoration: none;
+}

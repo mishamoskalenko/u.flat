@@ -1,0 +1,43 @@
+const FlatData = [
+    {
+        id: 1,
+        imagePath: "https://i.ibb.co/YPNZdhF/flat-1.jpg",
+        price: "126 000 $",
+        pricepermeter: "2 423 $ за м2",
+        street: "вул. Зарічна, 4",
+        location: "Київ, Дарницький, ЖК Славутич",
+        rooms: "1 кімната",
+        space: "52 м2",
+        floor: "28/33",
+        furniture: "З меблями",
+        opportunities: "Біля метро",
+    },
+    {
+        id: 2,
+        imagePath: "https://i.ibb.co/jf7xChB/flat-2.jpg",
+        price: "121 000 $",
+        pricepermeter: "2 470 $ за м2",
+        street: "вул. Осокорська, 2а",
+        location: "Київ, Дарницький, ЖК Зарічний",
+        rooms: "1 кімната",
+        space: "49.2 м2",
+        floor: "9/25",
+        furniture: "З меблями",
+        opportunities: "Біля метро",
+    },
+    {
+        id: 3,
+        imagePath: "https://i.ibb.co/Vg5kkTq/flat-3.jpg",
+        price: "110 000 $",
+        pricepermeter: "2 444 $ за м2",
+        street: "Дніпровська наб., 16г",
+        location: "Київ, Дарницький, ЖК Seven",
+        rooms: "1 кімната",
+        space: "45 м2",
+        floor: "13/26",
+        furniture: "З меблями",
+        opportunities: "Терміново",
+    },
+]
+
+export default FlatData;

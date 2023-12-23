@@ -1,0 +1,41 @@
+.agents{
+    display: flex;
+    gap: 15px;
+}
+
+.agents__image{
+    border-radius: 15%;
+}
+
+.agents-text__title{
+    color: #10180C;
+    font-family: "Roboto Flex";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+}
+
+.agents-roll{
+    list-style-type: none;
+    display: flex;
+    gap: 42px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.agents-roll__group{
+    display: flex;
+    gap: 10px;
+}
+
+
+.agents-text__description{
+    color: #737261;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}

@@ -1,0 +1,88 @@
+.flats{
+    background-color: #E9E8E4;
+}
+
+.flats__image{
+    border-radius: 6%;
+}
+
+.flats-price{
+    font-family: "Roboto Flex";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    color: #10180C;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flats-price__part{
+    color: #9C8F80;
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.flats__street{
+    color: #10180C;
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.flats__location{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    color: #737261;
+    margin: 0;
+}
+
+.flats-params{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #737261;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 35px;
+}
+
+.flats-opportunities{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #737261;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.flats-opportunities__furniture, .flats-opportunities__opportunities{
+    border-radius: 15px;
+    background: #CFC6B8;
+    padding: 5px 10px;
+}
+
+.flats__group{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
