@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/u.flat/static/css/main.55a3f238.css",
+    "main.js": "/u.flat/static/js/main.b4f3d0d5.js",
+    "static/media/filtr.jpg": "/u.flat/static/media/filtr.fcd0d527e9bae1e998e7.jpg",
+    "static/media/contacts.jpg": "/u.flat/static/media/contacts.07ca8490a4b7f52a7a63.jpg",
+    "static/media/about.jpg": "/u.flat/static/media/about.9f03079d1922267b99b8.jpg",
+    "static/media/Kharkiv.ttf": "/u.flat/static/media/Kharkiv.6606d31e8d8c3e9f194b.ttf",
+    "static/media/filter-flat.svg": "/u.flat/static/media/filter-flat.330d66cca52384e1acbe.svg",
+    "static/media/filter-trade.svg": "/u.flat/static/media/filter-trade.60c9fcfd923ccb673843.svg",
+    "static/media/settings.svg": "/u.flat/static/media/settings.1060c97277a63b0089b9.svg",
+    "static/media/phone.svg": "/u.flat/static/media/phone.9171f08d71b0783f28b4.svg",
+    "static/media/phone-footer.svg": "/u.flat/static/media/phone-footer.41cc2f3afe20ffded6b0.svg",
+    "static/media/health.svg": "/u.flat/static/media/health.9ed3c87d299f0efccd16d589f6a8f26d.svg",
+    "static/media/location-footer.svg": "/u.flat/static/media/location-footer.d6b8ba4c0ff70cc3b786.svg",
+    "static/media/location.svg": "/u.flat/static/media/location.28e6097e625a07dac5e0.svg",
+    "static/media/person.svg": "/u.flat/static/media/person.728be90dcf7001e02a4f4b5b84a78e59.svg",
+    "static/media/arrow.svg": "/u.flat/static/media/arrow.8c86ede94033109fe3cc.svg",
+    "static/media/filter-search.svg": "/u.flat/static/media/filter-search.6381a41fc6270729308d.svg",
+    "index.html": "/u.flat/index.html",
+    "main.55a3f238.css.map": "/u.flat/static/css/main.55a3f238.css.map",
+    "main.b4f3d0d5.js.map": "/u.flat/static/js/main.b4f3d0d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55a3f238.css",
+    "static/js/main.b4f3d0d5.js"
+  ]
+}
